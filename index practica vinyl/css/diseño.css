@@ -1,0 +1,128 @@
+body {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #fff;
+}
+
+.console {
+    width: 500px;
+    height: 500px;
+    border: 8px solid #d38c09;
+    border-radius: 20%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    align-items: center;
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vinilo {
+    width: 400px;
+    height: 400px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    margin-left: 55px;
+    margin-top: 55px;
+}
+
+.album {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: 24%;
+    margin-top: 130px;
+    background-image: url("../img/4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.agujero {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.linea1 {
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.album {
+    animation: girar 10s linear infinite;
+}
+
+.vinilo {
+    animation: girar 10s linear infinite;
+}
+
+.titulo {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: #000;
+}
+
+.canciones {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:underline;
+    font-size:x-large;
+    font-style: oblique;
+    font-weight: 400;
+    text-anchor: start;
+}
+
+
+.circulo {
+    width: 4px;
+    height: 270px;
+    background-color: #b85411;
+    position:absolute;
+    top: 20%;
+    left: 34%;
+    transform-origin: top;
+    transform: translateX(-50%) rotate(-30deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.circulo2 {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(20, 24, 29);
+    border: 2px solid #d38c09;
+    border-radius: 20%;
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 32%;
+}
