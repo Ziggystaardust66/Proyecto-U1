@@ -1,0 +1,46 @@
+.circulo { /*indica que diseñaremos todo aspecto del circulo*/
+    width: 100px; /* indica el tamañdo en ancho de la figura*/
+    height: 100px; /* indica el tamañdo en altura de la figura*/
+    border-radius:50%; /* indica el radio que tendra el borde de la imagen para el formulario */
+    background-color: rgb(255, 230, 0); /* indica que el color del fondo sera amarillo*/
+    border-style: solid; /*indica el estilo solido que tendra el borde*/
+    margin-bottom: 10px; /* indica el tamaño que tendra el margen*/
+    display: block; /*indica tipo de vista dentro de la pagina web*/
+    margin-left: auto; /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+    margin-right: auto; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+}
+
+.rectangulo { /*indica que diseñaremos todo aspecto del rectangulo*/
+    width: 150px; /* indica el tamañdo en ancho de la figura*/
+    height: 100px; /* indica el tamañdo en altura de la figura*/
+    background-color: rgb(42, 165, 138); /* indica que el color del fondo sera azul*/
+    border-style: solid; /*indica el estilo solido que tendra el borde*/
+    margin-bottom: 10px; /* indica el tamaño que tendra el margen*/
+    display: block;  /*indica tipo de vista dentro de la pagina web*/
+    margin-left: auto; /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+    margin-right: auto; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+}
+
+.triangulo { /*indica que diseñaremos todo aspecto del triangulo*/
+    width: 0; /* indica el tamañdo en ancho de la figura*/
+    height: 0; /* indica el tamañdo en altura de la figura*/
+    border: 150px solid transparent; /*indica que nuestro borde sera transparente*/
+    border-top: 0; /*indica en que altura de la pagina estara la figura referneciada desde arriba*/
+    border-bottom: 150px solid rgb(211, 22, 164); /* indica el tamaño que tendra el margen*/
+    margin-left: 530px; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+    display: block; /*indica tipo de vista dentro de la pagina web*/
+}
+
+.rombo { /*indica que diseñaremos todo aspecto del triangulo*/
+    width: 150px; /* indica el tamañdo en ancho de la figura*/
+    height: 150px; /* indica el tamañdo en altura de la figura*/
+    background-color: rgb(86, 226, 43); /*indica el color verde que sera el fondo de este rombo*/
+    position: relative; /* todo sera posicionado relativamente*/
+    transform: rotate(45deg); /*indica que sera transformada de acuerdo a lo indicado*/
+    margin-top: 50px; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+    margin-left: 40px; /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+    border-style: solid; /*indica el estilo solido que tendra el borde*/
+    margin-left: auto;  /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+    margin-right: auto;/* indica el tamaño que tendra el margen refereciado a la derecha*/
+    display: block; /*indica tipo de vista dentro de la pagina web*/
+}
