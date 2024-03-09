@@ -1,0 +1,91 @@
+.triangulo1 { /*indica que diseñaremos todo aspecto del triangulo*/
+        width: 0; /* indica el tamañdo en ancho de la figura*/
+        height: 0; /* indica el tamañdo en altura de la figura*/
+        border: 150px solid transparent; /*indica que nuestro borde sera transparente*/
+        border-top: 0; /*indica en que altura de la pagina estara la figura referneciada desde arriba*/
+        border-bottom: 140px solid rgb(232, 6, 6); /* indica el tamaño que tendra el margen*/
+        margin-left: auto; /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+        margin-right: auto; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+        display: block; /*indica tipo de vista dentro de la pagina web*/
+    
+}
+
+.rectangulo1 { /*indica que diseñaremos todo aspecto del rectangulo*/
+    width: 360px; /* indica el tamañdo en ancho de la figura*/
+    height: 300px; /* indica el tamañdo en altura de la figura*/
+    background-color: rgb(193, 204, 190); /* indica que el color del fondo sera amarillo*/
+    border-style:groove; /*indica el estilo solido que tendra el borde*/
+    margin-bottom: 10px; /* indica el tamaño que tendra el margen*/
+    display: block; /*indica tipo de vista dentro de la pagina web*/
+    margin-left: auto; /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+    margin-right: auto; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+    transform: rotate(90deg); /*indica que sera transformada de acuerdo a lo indicado*/
+    margin-top: 27px; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+}
+
+.triangulo2 { /*indica que diseñaremos todo aspecto del segundo triangulo*/
+    width: 0%; /* indica el tamañdo en ancho de la figura*/
+    height: 50%; /* indica el tamañdo en altura de la figura*/
+    border: 80px solid transparent; /*indica que nuestro borde sera transparente*/
+    border-top: 0px; /*indica en que altura de la pagina estara la figura referneciada desde arriba*/
+    border-bottom: 60px solid rgb(232, 6, 6); /* indica el tamaño que tendra el margen*/
+    margin-left: 57.5%; /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+    margin-right: 0%; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+    margin-top: -2%; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+    display: block; /*indica tipo de vista dentro de la pagina web*/
+    transform: rotate(90deg); /*indica que sera transformada de acuerdo a lo indicado*/
+
+}
+
+.triangulo3 { /*indica que diseñaremos todo aspecto del tercer triangulo*/
+    width: 0%; /* indica el tamañdo en ancho de la figura*/
+    height: 50%; /* indica el tamañdo en altura de la figura*/
+    border: 80px solid transparent; /*indica que nuestro borde sera transparente*/
+    border-top: 0px; /*indica en que altura de la pagina estara la figura referneciada desde arriba*/
+    border-bottom: 60px solid rgb(232, 6, 6); /* indica el tamaño que tendra el margen*/
+    margin-left: 30.5%; /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+    margin-right: 0%; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+    margin-top: -4%; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+    display: block; /*indica tipo de vista dentro de la pagina web*/
+    transform: rotate(270deg); /*indica que sera transformada de acuerdo a lo indicado*/
+}
+
+.rectangulo2 { /*indica que diseñaremos todo aspecto del segundo rectangulo*/
+    width: 50px; /* indica el tamañdo en ancho de la figura*/
+    height: 100px; /* indica el tamañdo en altura de la figura*/
+    background-color: rgb(193, 204, 190); /* indica que el color del fondo sera amarillo*/
+    border-style:groove; /*indica el estilo solido que tendra el borde*/
+    margin-bottom: 10px; /* indica el tamaño que tendra el margen*/
+    display: block; /*indica tipo de vista dentro de la pagina web*/
+    margin-left: 41%; /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+    margin-right: 20%; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+    margin-top: -1.7%; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+    transform: rotate(180deg); /*indica que sera transformada de acuerdo a lo indicado*/
+}
+
+.rectangulo3 { /*indica que diseñaremos todo aspecto del tercer rectangulo*/
+    width: 50px; /* indica el tamañdo en ancho de la figura*/
+    height: 100px; /* indica el tamañdo en altura de la figura*/
+    background-color: rgb(193, 204, 190); /* indica que el color del fondo sera amarillo*/
+    border-style:groove; /*indica el estilo solido que tendra el borde*/
+    margin-bottom: 10px; /* indica el tamaño que tendra el margen*/
+    display: block; /*indica tipo de vista dentro de la pagina web*/
+    margin-left: 54.5%; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+    margin-right: 30%; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+    margin-top: -8.7%; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+    transform: rotate(180deg); /*indica que sera transformada de acuerdo a lo indicado*/
+}
+
+.circulo { /*indica que diseñaremos todo aspecto del circulo*/
+    width: 100px; /* indica el tamañdo en ancho de la figura*/
+    height: 100px; /* indica el tamañdo en altura de la figura*/
+    border-radius:50%; /* indica el radio que tendra el borde de la imagen para el formulario */
+    background-color: rgb(0, 174, 255); /* indica que el color del fondo sera amarillo*/
+    border-style:double;  /*indica el estilo doble que tendra el borde*/
+    margin-bottom: 10px; /* indica el tamaño que tendra el margen*/
+    display: block; /*indica tipo de vista dentro de la pagina web*/
+    margin-left: auto; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+    margin-right: auto; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+    margin-top: -32%; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+    position: relative; /*indica que la figura tendra una posicion relativa*/
+}
