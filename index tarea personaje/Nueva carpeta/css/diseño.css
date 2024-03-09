@@ -1,0 +1,39 @@
+body {  /* indica que diseñaremos cada elemento del cuerpo */
+    background: white; /* indica que el color del fondo sera blanco*/
+    justify-content: center; /* indica que el contenido del cuerpo sera justificado en el centro*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* indica el tipo de letra que le queremos dar*/
+}
+
+.personaje img { /* indica que diseñaremos cada elemento de la imagen del personaje*/
+    border-radius: 10%; /* indica el radio que tendra el borde de la imagen para el formulario */
+    height: 70%; /* indica la altura que tendra la imagen*/
+    width: 22%; /* indica el ancho que tendra el formulario*/
+    margin-bottom: 500%; /* indica el tamaño que tendra el margen*/
+    margin-left: 500px; /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+    margin-right:auto; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+    margin-top: -900px; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+}
+
+.letra { /* indica que diseñaremos cada elemento de la letra del personaje*/
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+    margin: auto; /* indica el tamaño que tendra el margen*/
+    position:absolute; /* todo sera arreglado de acuerdo al dispositivo*/
+    top: 100%; /* este indica la lejania que tendran las detras desde arriba hacia abajo*/
+    left: 50%; /* indica la disposicion del texto referenciado a la izquierda*/
+    right: 10%; /* indica la disposicion del texto referenciado a la derecha*/
+    transform: translate(-50%, -50%); /*indica que sera transformada de acuerdo a lo indicado*/
+    background: rgba(255, 255, 255, 0.1); /* indica que el color del fondo sera blanco*/
+    border-radius: 15px; /* indica el radio que tendra el borde de la imagen para el formulario */
+    padding: 20px; /*indica la cantidad de pixeles que tendra la palidez del recuadro transparente*/
+    max-width: 8000px; /* indica el minimo del ancho que tendra el video*/
+    backdrop-filter: blur(10px); /* este indica el blur que tendra la letra contrastante con el fondo*/
+    box-shadow: 0 0 10px 0 rgba(0, 255, 255, 0.5), 0 0 40px 0 rgba(0, 255, 255, 0.45), 0 0 80px 0 rgba(0, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.18); /* indica el tamaño del borde */
+}
+
+.letra pre {
+    color: blanchedalmond; /* indica el color blanco*/
+    margin: 0%; /* indica el porcentaje del margen*/
+    font-family: 'Times New Roman', Times, serif; /* indica el tipo de letra que le queremos dar*/
+    text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /*indica la sombra del texto*/
+}
