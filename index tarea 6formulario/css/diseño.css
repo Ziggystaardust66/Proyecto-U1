@@ -1,0 +1,70 @@
+body {  /* indica que diseñaremos cada elemento del cuerpo */
+    background: #e0e0e0; /* indica que el color del fondo sera blanco*/
+    display: flex; /* todo sera arreglado de acuerdo al dispositivo*/
+    justify-content: center; /* indica que el contenido del cuerpo sera justificado en el centro*/
+    align-items: center; /* indica que los elementos estarán alineados en el centro*/
+    height: 100vh; /* indica la altura que tendra la imagen*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* indica el tipo de letra que le queremos dar*/
+    overflow: hidden; /*indica que la superficei tiene que estar oculta*/
+    font-size: 20px; /* indica el tamaño del frente del cuerpo*/
+}
+
+#videoFondo { /* indica que diseñaremos cada elemento del video del fondo */
+    position: fixed; /* todo sera arreglado de acuerdo al dispositivo*/
+    right: 0%; /* indica la posicion del video referenciado a la derecha*/
+    bottom: 0%; /*indica el margen*/
+    min-width: 100%; /* indica el minimo del ancho que tendra el video*/
+    min-height: 100%; /* indica el minimo de la altura que tendra el video*/
+    z-index: -1; /* indica el ajuste de las capas de los objetos*/
+    align-items: center; /* indica que los elementos estarán alineados en el centro*/
+}
+.formulario { /* indica que diseñaremos cada elemento del formulario */
+    background: rgba(255, 255, 255, 0.4); /* indica que el color del fondo transparente sera gris*/
+    border-radius: 10px; /* indica el radio que tendra el borde del recuadro para el formulario */
+    border-color:burlywood;  /* indica el color que tendra el borde del recuadro para el formulario */
+    border-style: solid; /* indica el estilo que tendra el borde del recuadro para el formulario */
+    padding: 20px; /*indica la cantidad de pixeles que tendra la palidez del recuadro transparente*/
+    width: 800px; /* indica el ancho que tendra el formulario*/
+    /*box-shadow: 0 0 Spx rgba(255, 255, 255, 0.1),
+        0 0 10px rgba(255, 255, 255, 0.2), 0 0 15px rgba(255, 255, 255, 0.2),
+        0 0 20px rgba(255, 255, 255, 0.4);*/
+
+}
+
+.formulario img { /* indica que diseñaremos cada elemento del formulario */
+    border-radius: 60%; /* indica el radio que tendra el borde de la imagen para el formulario */
+    height: 19%; /* indica la altura que tendra la imagen*/
+    width: 15%; /* indica el ancho que tendra el formulario*/
+    margin-bottom: -13%; /* indica el tamaño que tendra el margen*/
+    margin-left:auto; /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+    margin-right:auto; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+    margin-top: 1px;  /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+}
+
+.formulario h1 { /* indica que diseñaremos cada elemento del formulario */
+    color:aquamarine; /* indica el color que tendran las letras*/
+    font-family:Comic Sans MS; /* indica el tipo de letra que le queremos dar*/
+    position:relative; /* la posicion del encabezado sera relativo al recuadro transparente*/
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; /* indica la cantidad de transoarencia y color dela sombra de las letras*/}
+
+.formulario input { /* indica que diseñaremos cada elemento del formulario */
+    width: 100%; /* indica el ancho que tendra el formulario*/
+    padding: 10px; /*indica la cantidad de pixeles que tendra la palidez del contenido*/
+    margin-bottom: 10px; /* indica el tamaño que tendra el margen*/
+    margin-right: 10px; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+    border: none; /* indica que no habra borde alguno*/
+    border-radius: 5px; /* indica el radio que tendra el borde de la imagen para el formulario */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* indica el tipo de letra que le queremos dar*/
+    font-size: 20px; /* indica el tamañdo del frente en el formulario*/
+}
+
+.formulario button {  /* indica que diseñaremos cada elemento del boton del formulario */
+    width: 100%; /* indica el ancho que tendra el formulario*/
+    padding: 10px; /*indica la cantidad de pixeles que tendra la palidez del contenido*/
+    border: none; /* indica que no habra borde alguno*/
+    border-radius: 5px; /* indica el radio que tendra el borde de la imagen para el formulario */
+    background: #7198e6; /*indica el color del fondo que tendra el boton*/
+    color: white; /*indica el color del boton*/
+    font-size: 20px; /*indica el tamaño del frente del boton*/
+}
