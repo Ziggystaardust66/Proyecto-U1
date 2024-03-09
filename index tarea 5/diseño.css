@@ -1,0 +1,27 @@
+body { /* indica que diseñaremos cada elemento del cuerpo */
+    background-color: black; /* indica que el color del fondo sera negro*/
+    font-family: Comic Sans MS; /* indica el tipo de letra que le queremos dar*/
+    color:antiquewhite;/* indica el color que tendra el cuerpo*/
+} 
+
+h1 { /* indica que diseñaremos el primer encabezado*/
+    color:antiquewhite; /* indica el color que tendra el cuerpo*/
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+    font-family: Comic Sans MS; /* indica el tipo de letra que le queremos dar*/
+}
+
+pre { /* indica que diseñaremos el primer parrafo*/
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+    font-family: Comic Sans MS; /* indica el tipo de letra que le queremos dar*/
+}
+
+img{ /* indica que diseñaremos la imagen*/
+    width:100%; /* indica el ancho que tendra la imagen*/
+    height:100%; /* indica la altura que tendra la imagen*/
+    image-rendering: optimizeQuality; /* indica que la imagen sera renderizada a mejor calidad posible*/
+}
+
+p{ /* indica que diseñaremos el primer parrafo*/
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+    font-family: Comic Sans MS; /* indica el tipo de letra que le queremos dar*/
+}
