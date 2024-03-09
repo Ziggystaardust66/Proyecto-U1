@@ -1,0 +1,32 @@
+* { /*indica todo lo que debemos diseñar de esta*/
+    box-sizing: border-box; /* indica el tamaño que tendra la caja*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold; /*indica el ancho qeu tendra el frente*/
+}   
+
+.left { /*indica todo lo que debemos diseñar de esta*/
+    background-color: rgb(105, 64, 143); /* indica que el color del fondo sera morado*/
+    padding: 20px; /*indica la cantidad de pixeles que tendra la palidez del recuadro transparente*/
+    float: left; 
+    width: 20%; /* indica el ancho que tendra el formulario*/
+    color: white; /* indica que el color sera blanco*/
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+}
+
+.main { /*indica todo lo que debemos diseñar de esta*/
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+    color: white; /* indica que el color sera blanco*/
+    background-color: blueviolet; /* indica que el color del fondo sera morado*/
+    padding: 20px; /*indica la cantidad de pixeles que tendra la palidez del recuadro transparente*/
+    float: left; 
+    width: 60%; /* indica el ancho que tendra el formulario*/
+
+}
+
+.right { /*indica todo lo que debemos diseñar de esta*/
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+    color: rgb(153, 97, 206); /* indica que el color del fondo sera morado*/
+    background-color: blueviolet; /* indica que el color del fondo sera morado*/
+    padding: 20px; /*indica la cantidad de pixeles que tendra la palidez del recuadro transparente*/
+}
+
