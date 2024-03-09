@@ -1,0 +1,39 @@
+<!DOCTYPE html> <!--indica el inicio de todo código para la pagina-->
+<html lang="es">
+<head> <!--indica todo lo que ira en ela cabeza de la pagina-->
+    <meta charset="UTF-8"> <!--indica el conjunto de caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--es la creacion del formato al que queremos utilizar-->
+    <title>Practica 10</title> <!--indica lo que aparecera en la pestaña de la página-->
+    <link rel="icon" href="./img/4.jpeg"/> <!--este es el enlace de nuestra imagen-->
+</head>
+<body> <!--indica lo que contituira en todo el cuerpo de la pagina-->
+    <img src="./img/3.jpg" alt="Imagen no Encontrada" usemap="#rectangle" /> <!--indica el inicio y final de una insercion de imagen-->
+    <map name="rectangle"> <!--este es la creacion de un mapa para una imagen-->
+        <area 
+            shape="rect"
+            coords="34, 44, 270, 350"
+            href="pages/index1.html"
+            name="rectangle"
+        /> <!--indica la posicion de pixeles de la parte especfica de una imagen-->
+        <area 
+            shape="circle" 
+            coords="377, 300, 44" 
+            href="./pages/index2.html"
+            /> <!--indica la posicion de pixeles de la parte especfica de una imagen-->
+        <area
+            shape="square" 
+            coords="333, 248, 290, 172"
+            href="./pages/index3.html"
+            /> <!--indica la posicion de pixeles de la parte especfica de una imagen-->
+    </map>
+
+    <img src="./img/2.jpg" alt="Imagen no encontrada" usemap="#poly" />
+    <map name="poly"> <!--este es la creacion de un mapa para una imagen-->
+        <area 
+        shape="poly" 
+        coords="92,184,61,211,40,262,39,307,43,337,56,354,90,355,145,331,190,269,206,222,204,175,194,141,178,114,139,124,109,150" 
+        href="./pages/index4.html"
+        /> <!--indica la posicion de pixeles de la parte especfica de una imagen-->
+    </map>
+</body>
+</html>
