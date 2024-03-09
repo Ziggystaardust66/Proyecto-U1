@@ -1,0 +1,35 @@
+body { /*indica  todo lo que se diseñará del cuerpo*/
+    margin: 0; /*indica el tamaño que tendra el margen*/
+    font-family: Arial, Helvetica, sans-serif; /*indica el cambio de fuente de letra*/
+    background-color: rgb(160, 95, 138); /* indica que el color del fondo sera amarillo*/
+    width: 100%; /* indica el tamañdo en ancho del cuerpo*/
+    height: 100%; /* indica el tamañdo en altura del cuerpo*/
+}
+
+.header { /* indica que diseñaremos cada elemento del encabezado */
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+    padding: 10px; /*indica la cantidad de pixeles que tendra la palidez del recuadro transparente*/
+    width: 100%; /* indica el ancho que tendra el formulario*/
+    background-color: rgb(12, 212, 226); /* indica que el color del fondo sera amarillo*/
+    position: fixed; /* la posicion del encabezado sera relativo al recuadro transparente*/
+    top: 0%; /*indica la distancia entre el tope de la pagina*/
+    font-size: 2vh; /* indica el tamaño del frente del cuerpo*/
+}
+
+.content { /* indica que diseñaremos cada elemento del contenido */
+    margin: 10px; /*indica el tamaño que tendra el margen*/
+    align-items: center; /* indica que los elementos estarán alineados en el centro*/
+    align-content: center; /*indica que todo el contenido sera centrado*/
+}
+
+.content img { /* indica que diseñaremos cada elemento de la imagen*/
+    max-width: 100%; /*indica el ancho maximo de la imagen*/
+    margin-top: 90px; /*indica el tamaño del margen*/
+}
+
+.footer { /* indica que diseñaremos cada elemento del*/
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+    padding: 10px; /*indica la cantidad de pixeles que tendra la palidez del recuadro transparente*/
+    background-color: aliceblue; /* indica que el color del fondo sera amarillo*/
+    bottom:0%; /*indica el borde*/
+}
