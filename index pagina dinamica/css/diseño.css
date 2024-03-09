@@ -1,0 +1,43 @@
+body { /* indica que diseñaremos cada elemento del cuerpo */
+    margin: 0; /*indica el tamaño del amrgen*/
+    font-optical-sizing: auto; /*indica el frente optico*/
+    font-style: normal; /*indica el estilo que tendra el frente*/
+    font-weight: 400; /* indica el tamaño del frente*/
+    color:black; /*indica el color que tendra el cuerpo*/
+    font-family: "Bebas Neue", sans-serif; /* indica el tipo de letra que le queremos dar*/
+}
+
+.navbar { /* indica que diseñaremos cada elemento del cuerpo */
+    overflow: hidden; /*indica que la superficie tiene que estar oculta*/
+    background-color: blueviolet;  /*indica el color que tendra la barra*/
+    display: flex; /*indica que todo sera arreglado a lo demas*/
+    align-items: center; /* indica que los elementos estarán alineados en el centro*/
+    justify-content: center; /* indica que el contenido del cuerpo sera justificado en el centro*/
+    position:static; /* todo sera arreglado de acuerdo al dispositivo*/
+    width: 100%; /* indica el ancho que tendra el formulario*/
+}
+
+.navbar a:hover {  /* indica que diseñaremos cada elemento del cuerpo */
+    background: #ddd; /* indica que el color del fondo sera blanco*/
+    color: black; /*indica el color que tendra el cuerpo*/
+    cursor: pointer; /*indica el como se vera el cursor del mouse*/
+}
+
+@media screen and (max-width: 600px) { /*indica el como se va convertir de una pagina responsiva*/
+    .navbar a {
+        float: none;
+        display: block;
+    }
+    
+}
+
+.navbar a { /* indica que diseñaremos cada elemento del cuerpo */
+    float: right;
+    display: block; /*indica que todo sera arreglado a lo demas*/
+    color: bisque; /*indica el color que tendra el cuerpo*/
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+    padding: 14px 16px; /*indica la cantidad de pixeles que tendra la palidez del contenido*/
+    text-decoration: none; /*indica la decoracion que tendra en el texto*/
+    font-size: 17px; /*indica el tamalo que tendra el frente*/
+}
+
