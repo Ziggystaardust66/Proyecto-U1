@@ -1,0 +1,78 @@
+.container1 { /*indica que dieñremos la primera figura de la clase llamada container1 */
+    width: 400px; /* indica el tamañdo en ancho de la figura*/
+    height: 150px; /* indica el tamañdo en altura de la figura*/
+    background-color: #c0ffd5; /* indica que el color del fondo sera blanco*/
+    position: relative; /* la posicion de la figura */
+    margin: 500px; /*indica el tamaño del margen de la figura*/
+    margin-top: 10px; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+    box-shadow: 5px 5px 10px rgba(132, 0, 255, 0.842); /* indica en pixeles la sombra de la figura*/
+}
+
+.container2 { /*indica que dieñremos la primera figura de la clase llamada container2 */
+    width: 400px; /* indica el tamañdo en ancho de la figura*/
+    height: 150px; /* indica el tamañdo en altura de la figura*/
+    background-color: #ffe6c0; /*indica el color de la figura*/
+    margin: 20px; /* indica el tamaño del margen*/
+    margin-top: -450px; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+    box-shadow: 5px 5px 10px rgba(153, 0, 255, 0.842); /* indica en pixeles la sombra de la figura*/
+}
+
+.container3 { /*indica que dieñremos la primera figura de la clase llamada container3 */
+    width: 400px; /* indica el tamañdo en ancho de la figura*/
+    height: 150px; /* indica el tamañdo en altura de la figura*/
+    background-color: #ffe6c0; /*indica el color de la figura*/
+    margin: 900px; /* indica el tamaño del margen*/
+    margin-top: -170px; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+    text-align: center; /* indica que el texto estará alineado en el centro*/
+    box-shadow: 5px 5px 10px rgba(162, 0, 255, 0.842); /* indica en pixeles la sombra de la figura*/
+
+}
+
+
+.container4 { /*indica que dieñremos la primera figura de la clase llamada container4 */
+    border-left: thick solid black;
+    height: 5%;  /* indica el tamañdo en altura de la figura*/
+    left: 50%; /* indica la posicion referenciado a la izquierda*/
+    position: absolute; /* la posicion de la figura */
+    margin: -1px; /* indica el tamaño del margen*/
+    margin-top: -1100px; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+    margin-right: -90px; /* indica el tamaño que tendra el margen refereciado a la derecha*/
+    margin-left: 25px; /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+
+}
+hr{
+    height: 10px; /* indica el tamañdo en altura de la figura*/
+    width: 50%; /* indica el tamañdo en ancho de la figura*/
+    background-color: black; /*indica el color de la figura*/
+    margin-top: -1070px; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+    border: none; /*no pondremos border*/
+}
+
+#VideoFondo {
+    position:fixed; /* la posicion de la figura */
+    right: 0%;/* indica la posicion referenciado a la derecha*/
+    bottom: 0%;
+    min-width: 50%; /* indica el minimo del tamañdo del ancho del video*/
+    min-height: 50%; /* indica el minimo del tamañdo de la altura del video*/
+    z-index: -1; 
+    align-items: center; /* indica el alineamiento de todo el video en el centro*/
+    
+}
+.container5 { /*indica que dieñremos la primera figura de la clase llamada container5 */
+    border-left: thick solid black; /* indica que el borde sera negro de lado izquierdo*/
+    height: 3%; /* indica el tamañdo en altura de la figura*/
+    left: 50%; /* indica la posicion referenciado a la izquierda*/
+    position: absolute; /* la posicion de la figura */
+    margin-top: -18px; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+    margin-left: -340px; /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+}
+.container6{ /*indica que dieñremos la primera figura de la clase llamada container6 */
+    border-left: thick solid black; /* indica el borde solido de la izquierda*/
+    height: 3%; /* indica el tamañdo en altura de la figura*/
+    left: 50%; /* indica la posicion referenciado a la izquierda*/
+    position: absolute; /* la posicion de la figura */
+    margin-top: -18px; /* indica el tamaño que tendra el margen refereciado del tope de la pagina*/
+    margin-left: 335px; /* indica el tamaño que tendra el margen refereciado a la izquierda*/
+}
